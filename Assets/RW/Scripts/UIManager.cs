@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public void StartGame()
+public class UIManager : MonoBehaviour
 {
-    SceneManager.LoadScene("RocketMouse");
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("RocketMouse");
+    }
 }
